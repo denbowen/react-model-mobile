@@ -1,0 +1,51 @@
+{
+  "name": "react-model-mobile",
+  "version": "1.0.0",
+  "description": "mobile project based on react",
+  "main": "index.js",
+  "author": "dengbw",
+  "scripts": {
+    "start": "webpack-dev-server --config ./scripts/webpack.dev.config.js",
+    "build": "webpack --config ./scripts/webpack.prod.config.js",
+    "dll": "webpack --config ./scripts/webpack.dll.config.js"
+  },
+  "dependencies": {
+    "antd-mobile": "^2.3.4",
+    "immer": "^8.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "add-asset-html-webpack-plugin": "^3.1.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "core-js": "^3.8.2",
+    "css-loader": "^5.0.1",
+    "happypack": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "image-webpack-loader": "^7.0.1",
+    "less": "^4.1.0",
+    "less-loader": "^7.2.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.45.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.1",
+    "webpack-merge": "^4.2.2"
+  }
+}
